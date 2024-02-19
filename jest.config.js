@@ -3,7 +3,7 @@
  * https://jestjs.io/docs/en/configuration.html
  */
 
-module.exports = {
+export default {
   clearMocks: true,
   coverageDirectory: "coverage",
   coverageProvider: "v8",
