@@ -1,6 +1,6 @@
 
 export default class Shipment {
-  update(id, username) {
-    console.log('UPDATE THIS!')
+  update(data) {
+    console.log('SHIPMENT UPDATE: ' + JSON.stringify(data))
   }
 }

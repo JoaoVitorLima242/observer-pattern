@@ -1,5 +1,5 @@
 export default class Marketing {
-  update(id, username) {
-    console.log('UPDATE THIS!')
+  update(data) {
+    console.log('MARKERTING UPDATE: ' + JSON.stringify(data))
   }
 }
